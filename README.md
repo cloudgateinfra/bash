@@ -5,7 +5,7 @@ included:
 
 - `load-db.sh` - restore a MySQL database from an AWS S3 backup. It takes AWS access credentials, MySQL database connection details, and a specific database dump file from S3 as inputs; then downloads the dump file, extracts its contents, and restores the database using the MySQL client
 
-- `load-specific-s3-backup` - used for loading a customer database into a local MySQL server; it accepts various command-line options and arguments, such as specifying whether to convert the imported database to UTF-8, whether to restart the local server, and whether to save a backup of the existing database
+- `load-specific-s3-backup` - used for loading a customer database into a local MySQL server; it accepts various command-line options and arguments, such as specifying whether to convert the imported database to UTF-8, whether to restart the local server, and whether to save a backup of the existing database:
 
 performs the following actions:
 

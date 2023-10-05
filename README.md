@@ -1,4 +1,4 @@
-# ci/ci & cloud automation with bash
+# ci/cd & cloud automation with bash
 
 included:
 - `backup-s3-mysql.sh` - creates a MySQL database backup, compresses it, adds a timestamp to the filename, and then uploads it to an Amazon S3 bucket using the s3cmd tool
